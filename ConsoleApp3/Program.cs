@@ -17,35 +17,5 @@ namespace ConsoleApp3
             // xuất ra màn hình chữ Hello và mặt cười
             Console.WriteLine("Hello " + name + ", bạn được " + age + " tuổi");
         }
-        /*
-            +   -   *   /   %
-            ++  --  *       
-            +=  -=  *=  /=  %=
-            a = 1
-            a++
-            ++a
-            a++,++a <=> a = a +1    
-            ----------------------
-            a = 1
-            b = 3
-            a++
-            b--
-            a++ + b => 
-                    a + b
-                    a = a + 1
-            ++a + b =>
-                    a = a + 1
-                    a + b
-
-
-
-
-
-
-
-
-
-
-         */
     }
 }
