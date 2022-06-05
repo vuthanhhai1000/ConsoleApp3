@@ -12,10 +12,11 @@ namespace ConsoleApp3
         {
             Console.Write("Bạn tên gì?:");
             string name = Console.ReadLine();
+            Console.WriteLine("Ban sinh nam may:");
             int yob = Convert.ToInt32(Console.ReadLine());
             int age = 2022 - yob;
-            // xuất ra màn hình chữ Hello và mặt cười
             Console.WriteLine("Hello " + name + ", bạn được " + age + " tuổi");
+            Console.WriteLine("Thanks");
         }
     }
 }
